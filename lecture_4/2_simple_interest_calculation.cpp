@@ -3,7 +3,6 @@ using namespace std;
 int main(){
     int p,r,t;
     cin>>p>>r>>t;
-   int si ;
-   si = (p*r*t)/100;
+   int si = (p*r*t)/100;
    cout<<si;
 }
