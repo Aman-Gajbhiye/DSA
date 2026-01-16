@@ -4,7 +4,7 @@ int main(){
     int n;
     cin>>n;
     if(n>=300 && n<=460){
-        cout<<"you won a Macbook";
+        cout<<"you won a Macbook !"<<endl;
         if(n>=300 && n<=380){
             cout<<"Model:M1 mac";
         }
@@ -13,19 +13,32 @@ int main(){
         }
     }
     else if(n>=200 && n<=280){
-        cout<<"Kurkure";
-        if(n>=300 && n<=380){
-            cout<<"Model:M1 mac";
+        cout<<"You won a pack of Kurkure!"<<endl;
+        if(n>=200 && n<=240){
+            cout<<"Flavour:Chilli Kurkure";
         }
         else{
-            cout<<"Model:M2 mac";
+            cout<<"Flavour:Onion Kurkure";
         }
     }
     else if(n>=1100 && n<=1500){
-        cout<<"Cycle";
+        cout<<"You won a Cycle!"<<endl;
+         if(n>=1100 && n<=1300){
+            cout<<"Brand:Avon Cycle";
+        }
+        else{
+            cout<<"Brand:Hero Cycle";
+        }
     }
     else if(n>=50 && n<=80){
-        cout<<"Bike";
+        cout<<"You won a Bike!"<<endl;
+        if(n>=500 && n<=65){
+            cout<<"Model:bullet";
+        }
+        else{
+            cout<<"Model:Rajdoot";
+        }
+
     }
     else {
         cout<<"better luck next Time";
