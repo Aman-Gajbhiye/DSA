@@ -38,7 +38,6 @@ int main(){
         else{
             cout<<"Model:Rajdoot";
         }
-
     }
     else {
         cout<<"better luck next Time";
