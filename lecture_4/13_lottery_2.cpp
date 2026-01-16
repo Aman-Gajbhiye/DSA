@@ -23,7 +23,7 @@ int main(){
     }
     else if(n>=1100 && n<=1500){
         cout<<"You won a Cycle!"<<endl;
-         if(n>=1100 && n<=1300){
+        if(n>=1100 && n<=1300){
             cout<<"Brand:Avon Cycle";
         }
         else{
