@@ -33,13 +33,13 @@ int main(){
     else if(n>=50 && n<=80){
         cout<<"You won a Bike!"<<endl;
         if(n>=500 && n<=65){
-            cout<<"Model:bullet";
+            cout<<"Model:Bullet";
         }
         else{
             cout<<"Model:Rajdoot";
         }
     }
     else {
-        cout<<"better luck next Time";
+        cout<<"Better luck next time";
     }
 }
