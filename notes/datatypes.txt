@@ -1,0 +1,5 @@
+long - 4 bytes
+long int - 4 + 4 bytes (no decimal)
+long long - 4 + 4 8 bytes (no decimal)
+long long int - 4 + 4 +4 12 bytes (no decimal )
+double - 8 bytes (decimal)
