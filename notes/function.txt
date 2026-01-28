@@ -1,0 +1,23 @@
+datatype function_name (argument){
+// code   
+return 0; }
+1. No argument
+void greet (){
+    cout<<"hello";
+}
+void greet (){
+    return;
+}
+
+3. no argument , return
+int add(){
+    int a; 
+    int b;
+    c = a + b;
+    return c;
+}
+
+4 argumetn , return
+int add(int a, int b){
+    
+}
