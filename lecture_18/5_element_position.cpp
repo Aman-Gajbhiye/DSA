@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+// linear search
 int main(){
     int n;
     cout<<"enter size of array ";
