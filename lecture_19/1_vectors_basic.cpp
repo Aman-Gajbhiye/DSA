@@ -48,6 +48,7 @@ int main(){
         cout<<a[i]<<" ";
     }
     
+remove(a.begin(), a.end(), a[2]);
 
 
 }
