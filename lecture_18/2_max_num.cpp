@@ -4,15 +4,14 @@ using namespace std;
 int main(){
     int n;
     cin>>n;
-    int arr[n];
-    int max = INT_MIN;
-    int s = sizeof(arr)/sizeof(int);
-    for(int i = 0; i < s; i++){
-        cin>>arr[i];
+    int a[n];
+    for(int i = 0; i < n; i++){
+        cin>>a[i];
     }
-    for(int i = 0; i < s; i++){
-        if(arr[i]>max){
-            max = arr[i];
+    int max = a[0];
+      for(int i = 0; i < n; i++){
+        if(a[i]>max){
+            max = a[i];
         }
     }
     cout<<max;
