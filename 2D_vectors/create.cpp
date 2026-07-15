@@ -27,4 +27,5 @@ int main(){
     // remove an element
     v[2].erase(v[2].begin() + 2);
     print2DVecor(v);
+    return 0;
 }
